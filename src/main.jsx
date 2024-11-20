@@ -54,6 +54,7 @@ const router = createBrowserRouter(
                 <Route
                     path="contacts/:contactId/destroy"
                     action={destroyAction}
+                    errorElement={<ErrorPage/>}
                 />
             </Route>
         </Route>
